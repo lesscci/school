@@ -10,12 +10,11 @@
         <a href="?url=dashboard">Home</a>
 
         <h4> <p><?= implode($_SESSION['routes']);?></p></h4>
-        <br>
         <section class="menu__container">
         <li class="menu__item menu__item--show">
-                    <div><a href="#" class="menu__link">User<img src="../../../public/assets/arrow.svg" class="menu__arrow"></a></div>
+            <div><a href="#" class="menu__link">User<img src="../../../public/assets/arrow.svg" class="menu__arrow"></a></div>
                 
-                    <ul class="menu__nesting">
+            <ul class="menu__nesting">
                         <li class="menu__inside">
                             <a href="?url=setting" class="menu__link menu__link--inside">Settings</a>
                         </li>

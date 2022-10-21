@@ -36,7 +36,6 @@ nav{
     display: flex;
     max-width: 1200px;
     height: 100%;
-    margin: 0 auto;
 }
 
 .menu__links{
@@ -86,7 +85,7 @@ nav{
     bottom: 0;
     width: max-content;
     transform: translateY(100%);
-    background-color: #000;
+    background-color: #095265;
 }
 
 .menu__link--inside{
@@ -137,6 +136,22 @@ form{
     justify-content: space-around;
     flex-direction: column;
 }
+
+.buttonPer{
+    width: 100px;
+    height: 30px;
+    background-color: #095265;
+    border: none;
+    color: white;
+    padding-left: 10px;
+}
+.pers{
+    padding: 15px;
+}
+label{
+  font-size: 17px;
+  font-family: butler_bold;
+}
 h5{
 margin: 0;
 text-align: center;
@@ -154,8 +169,15 @@ color: white;
     border: none;
     color: white;
     margin: 10px;
+   
 }
 
+.detalles{
+    padding: 20px;
+    background-color: #2099B6;
+    width: 40%;
+    margin: auto;
+}
 .recuerdameDiv{
     font-size: 12px;
     display: flex;

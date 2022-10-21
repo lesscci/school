@@ -1,24 +1,25 @@
 <?php
     include 'partials/header.tpl.php';
     ?>
-<body>
-    <header>
-        <h1><?=$title;?></h1>
-        <hr>
-    </header>
+
 <?php
     include 'partials/nav.tpl.php';
 ?>
 
+<h5><?=$title;?></h5>
 <main>
-    <h2>Personalización</h2>
+    
     <form action="?url=settingaction" method="POST"> 
+    <h3>Personalización</h3>
+
+    <div class="pers">
     <label>Color fondo</label>
-    <select name="colorfondo">
+    <select name="colorfondo" class="buttonPer">
         <option value="blanco">Blanco</option>
         <option value="negro">Negro</option>
     </select>
-    <br><button>Guardar</button>
+    </div>
+    <button class="buttons">Guardar</button>
     </form>
 </main>
 </body>
